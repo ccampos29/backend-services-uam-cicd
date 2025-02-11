@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b69e32c7-970a-4c8b-a7ec-0cd49e669980" name="Changes" comment="First commit">
       <change beforePath="$PROJECT_DIR$/.github/workflows/actions.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/actions.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.FraseServiceTest.executor": "Run",
+    "Maven.backend-services-uam-cicd [clean,install].executor": "Run",
+    "Maven.backend-services-uam-cicd [clean].executor": "Run",
+    "Maven.backend-services-uam-cicd [compile].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.Application.executor": "Run",
@@ -58,7 +67,29 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn clean install" />
+      <command value="mvn compile" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.FraseServiceTest">
+    <configuration name="FraseServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend-services-uam-cicd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.campos.backend.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.campos.backend.service" />
+      <option name="MAIN_CLASS_NAME" value="com.campos.backend.service.FraseServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="backend-services-uam-cicd" />
@@ -67,6 +98,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FraseServiceTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -87,7 +123,7 @@
       <workItem from="1739227850383" duration="71000" />
       <workItem from="1739227923354" duration="120000" />
       <workItem from="1739228099809" duration="253000" />
-      <workItem from="1739228369355" duration="1782000" />
+      <workItem from="1739228369355" duration="3905000" />
     </task>
     <servers />
   </component>
